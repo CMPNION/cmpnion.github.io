@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dmitriy Norkin — Backend Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Dmitriy Norkin</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-4">
+
+    <section class="mb-5">
+      <h1>Backend Development Portfolio</h1>
+      <p class="lead">Коллекция моих учебных и практических проектов по backend-разработке.</p>
+    </section>
+
+    <section class="mb-5">
+      <h2>My stack</h2>
+      <div class="mq-row">
+        <div class="mq-box">NestJS</div>
+        <div class="mq-box">Redis</div>
+        <div class="mq-box">Postges</div>
+        <div class="mq-box">Kafka</div>
+        <div class="mq-box">K8S</div>
+        <div class="mq-box">Docker</div>
+        <div class="mq-box">GitHub</div>
+        <div class="mq-box">GoLang</div>
+      </div>
+    </section>
+
+    <section id="projects" class="mb-5">
+      <h2>My Projects</h2>
+      <div class="row g-3">
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">NestJS Microservices</h5>
+              <p class="card-text">Микросервисное приложение для управления клубами и событиями. Использованы NestJS, Sequelize и Redis (BullMQ для фоновых задач).</p>
+              <span class="badge bg-primary">NestJS</span>
+              <span class="badge bg-secondary">Redis</span>
+              <span class="badge bg-success">PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">X10</h5>
+              <p class="card-text">Автоматизированная система крипто-трейдинга. </p>
+              <span class="badge bg-primary">NestJS</span>
+              <span class="badge bg-secondary">Redis</span>
+              <span class="badge bg-success">PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">HTTP Task Manager</h5>
+              <p class="card-text">Go + Chi API для управления асинхронными задачами. Поддержка ограничений по targetId и параллельности.</p>
+              <span class="badge bg-warning text-dark">Go</span>
+              <span class="badge bg-dark">Chi Router</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">User Service</h5>
+              <p class="card-text">NestJS + TypeScript сервис для работы с пользователями: регистрация, авторизация, блокировка и выдача данных.</p>
+              <span class="badge bg-info text-dark">Express</span>
+              <span class="badge bg-primary">TypeScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="row">
+      <div class="col-lg-8"></div>
+      <aside class="col-lg-4 col-md-12 mt-4 mt-lg-0">
+        <div class="card">
+          <div class="card-body">
+            <h5 id="about">About Me</h5>
+            <p>Я — Дима, backend-разработчик. Учусь проектировать системы на NestJS.</p>
+            <hr>
+            <h6 id="contact">Contact</h6>
+            <p>Email: <a href="mailto:norkindima57@gmail.com">norkindima57@gmail.com</a></p>
+            <p>GitHub: <a href="#">github.com/CMPNION</a></p>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Dmitriy Norkin — Backend Portfolio</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
